@@ -1,5 +1,5 @@
 import "./style.css";
-import resumePdf from "../../assets/MikeColettaResume.pdf"
+
 
 function Experience() {
     return (
@@ -14,8 +14,7 @@ function Experience() {
                     <h6 className="card-subtitle mb-2">Washington State University</h6>
                     <p className="card-text">Class of 2010</p>
                 </div>
-                <h5 className="card-body">Check out my <a href={resumePdf} className="resumeLink"
-                    target="_blank" rel="noreferrer">resume</a> for more details.</h5>
+
             </div>
         </div>
     )
