@@ -1,4 +1,4 @@
-import myImage from "../../assets/images/Corbin.jpg";
+
 import "./style.css";
 
 function About() {
@@ -9,7 +9,7 @@ function About() {
                     <h2>About</h2>
                 </div>
                 <div className="card-body">
-                    <img src={myImage} className="card-img-top about-me-img" alt="Corbin in Seattle"></img>
+            
                     <h1 className="card-text about-me-text"></h1>
                         <p> Full stack web developer and educationally motivated, i love learning about new things. 
                         i have Received certificate in full stack web development from the University of Washington Coding Boot Camp. 
