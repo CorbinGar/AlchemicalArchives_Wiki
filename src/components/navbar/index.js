@@ -13,7 +13,7 @@ function Navbar() {
   
             
                 <div class="col-12">
-                 <Link to="/about" className="navlink"> About,   </Link> 
+                <Link to="/about" className="navlink"> About,   </Link> 
                 <Link to="/portfolio" className="navlink"> Portfolio,   </Link>
                 <Link to="/experience" className="navlink"> Experience,   </Link>
                 <Link to="/contact" className="navlink"> Contact   </Link>
