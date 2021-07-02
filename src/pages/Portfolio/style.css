@@ -4,12 +4,12 @@
 }
 
 .projectCard {
-    background-color: #156064;;
+    background-color: #333333;
     width: 25rem;
 }
 
 .portfolioText {
-    color: white;
+    color: whitesmoke;
 }
 
 .portImg {

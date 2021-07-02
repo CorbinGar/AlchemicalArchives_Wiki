@@ -1,5 +1,5 @@
 import "./style.css";
-
+import resumePdf from "./CorbinGarnerResume.pdf"
 
 function Experience() {
     return (
@@ -7,14 +7,15 @@ function Experience() {
             <div className="card cardStyle">
                 <h2 className="card-header">Experience</h2>
                 <div className="card-body">
-                    <h5 className="card-title">Coding Boot Camp Certificate</h5>
-                    <h6 className="card-subtitle mb-2">University of Washington</h6>
-                    <p className="card-text">2021</p>
-                    <h5 className="card-title">B.S. English Creative Writing</h5>
-                    <h6 className="card-subtitle mb-2">Washington State University</h6>
-                    <p className="card-text">Class of 2010</p>
-                </div>
 
+                    <div class="row"> 
+                    <h1 className="card-title">University of Washington Coding Boot Camp Certificate 2021</h1>
+                    </div> 
+        
+               
+                </div>
+                <h1 className="card-body">Check out my <a href={resumePdf} className="resumeLink"
+                    target="_blank" rel="noreferrer">resume</a> for more details.</h1>
             </div>
         </div>
     )
